@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave a review</title>
+</head>
+<body>
+    <h1>Leave a review</h1>
+
+    <form action="/submitReview" method="POST">
+    Your name:     <input type="text" placeholder="Enter your name" name="yourName">
+    <br>
+    Leave your comment here    <input type="text" placeholder="Comments" name="comment">
+    <br>
+    Rating <br>
+    <input type="radio" name="rating"value="5">
+    <label for="numberFive">5 (Best!)</label> <br>
+    <input type="radio" name="rating"value="4">
+    <label for="numberFour"> 4 (Good)</label> <br>
+    <input type="radio" name="rating"value="3">
+    <label for="numberThree"> 3 (Okay)</label> <br>
+    <input type="radio" name="rating"value="2">
+    <label for="numberTwo">2 (Eatable)</label> <br>
+     <input type="radio" name="rating"value="1">
+    <label for="numberOne">1 (Worst!)</label> <br><br>
+    <input type="submit" value="Submit">
+    <nav> <a href="/">Never Mind</a></nav>
+    <br>
+    </form>
+
+</body>
+</html>
